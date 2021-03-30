@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj": {}
+    "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj": {
+    "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj",
         "projectName": "Desafio.Models",
-        "projectPath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj",
+        "projectPath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj",
         "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\obj\\",
+        "outputPath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "anfo6ln/Y22yoGynjjSaRKpOvb9fY+vADCWx8D0QP23fiuNNVELGR1RH0WE8CuupO3hAE8J0Q9DQKVDWKwDOdQ==",
+  "dgSpecHash": "EV2bTxEdDJdX9jfQc7IF8olW7P/NdnPIm0z2zJgY5zjQvBUZhFnlFZX88RISlf6xzX1JVAcF1zJZ1k61Jr9t3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Service\\Desafio.Service.csproj",
+  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Service\\Desafio.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lukas\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Lukas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

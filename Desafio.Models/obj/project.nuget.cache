@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MVnpSNgylvtUoK5ZSzwBZRgNNEM6JTaVOIHUBGIxvpI0RkactljthHEB0kexapGGQHx3/hDJekv+zA/J0wCIOg==",
+  "dgSpecHash": "MA1QIudOj19v8XhcYDL5LpTPRQ9kh6136ggZ4y57t+IAsnrMP/d9IoiO0lFbuxsjT5Gc4AF06RxJmhzBz9oNWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj",
+  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lukas\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
     "C:\\Users\\Lukas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",

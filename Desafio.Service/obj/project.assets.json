@@ -1575,11 +1575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Service\\Desafio.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Service\\Desafio.Service.csproj",
       "projectName": "Desafio.Service",
-      "projectPath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Service\\Desafio.Service.csproj",
+      "projectPath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Service\\Desafio.Service.csproj",
       "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Service\\obj\\",
+      "outputPath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1595,8 +1595,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj": {
-              "projectPath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Models\\Desafio.Models.csproj"
+            "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj": {
+              "projectPath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Models\\Desafio.Models.csproj"
             }
           }
         }

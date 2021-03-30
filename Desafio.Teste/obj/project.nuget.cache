@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JVv7+o7TsQoqWckMhIPfytjS/Sub1XyYesqeKFeMvTVMGXhAZmMag5/cGtXpIIHUmNSMJODQ0hDoAj04CaSMEA==",
+  "dgSpecHash": "PAxY60LuQP5YQ07N6Lzlcla+8GH6Sp9cDT3EF93JSFpgtfBw0mvnDaXTZLnQTDpY6WOl45M+f2spicEKRYNilA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\Desafio\\Desafio.Teste\\Desafio.Teste.csproj",
+  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\RickLocation\\RickLocation\\Desafio.Teste\\Desafio.Teste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lukas\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Lukas\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.13\\microsoft.aspnetcore.jsonpatch.3.1.13.nupkg.sha512",

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import RickLocationService from '../services/RickLocationService';
+import { PageEvent } from '@angular/material/paginator';
 
 
 @Component({
@@ -10,6 +11,10 @@ import RickLocationService from '../services/RickLocationService';
 export class HomeComponent {
   service: RickLocationService;
   dimension: string = "";
+  len = 150;
+  pageSizeOptions: number[];
+  splicedData: any;
+  requests: any;
 
 
   constructor() {
@@ -17,6 +22,12 @@ export class HomeComponent {
   }
 
   ricks = [];
+  previous = [];
+
+  pageChangeEvent(event) {
+    console.log(this.previous);
+  }
+
 
   save() {
     this.service.createRick({ dimension: this.dimension }).then(
@@ -36,6 +47,8 @@ export class HomeComponent {
       (res) => {
         if (res.data.code == 200) {
           this.ricks = res.data.data
+          this.previous = this.ricks;
+          console.log(this.previous);
         } else {
           alert(res.data.messages);
         }

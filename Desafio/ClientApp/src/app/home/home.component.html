@@ -1,8 +1,11 @@
+<mat-paginator [length]="previous.length" [pageSize]="8" (page)="pageChangeEvent($event)"></mat-paginator>
 
-<mat-paginator [length]="100"
-               [pageSize]="10"
-               [pageSizeOptions]="[5, 10, 25, 100]">
-</mat-paginator>
+<div *ngIf="pageEvent">
+  <h5>Page Change Event Properties</h5>
+  <div>List length: {{pageEvent.length}}</div>
+  <div>Page size: {{pageEvent.pageSize}}</div>
+  <div>Page index: {{pageEvent.pageIndex}}</div>
+</div>
 
 <div class="row">
   <input [(ngModel)]="dimension" placeholder="Informe a Dimensão" type="text" />
@@ -10,20 +13,19 @@
 </div>
 
 <div class="container">
-  <mat-card class="example-card" *ngFor="let rick of ricks;" >
+  <mat-card class="example-card" *ngFor="let previou of previous;">
     <mat-card-header>
       <mat-card-title class="title">
 
-        <a [routerLink]="['/detail']" [queryParams]="{ id: rick.id}">
+        <a [routerLink]="['/detail']" [queryParams]="{ id: previou.id}">
           Rick
         </a>
 
       </mat-card-title>
-      <mat-card-subtitle>{{rick.dimension.name}}</mat-card-subtitle>
+      <mat-card-subtitle>{{previou.dimension.name}}</mat-card-subtitle>
     </mat-card-header>
     <img mat-card-image class="img" src="https://http2.mlstatic.com/D_NQ_NP_958462-MLB29339548199_022019-O.jpg"
-      alt="Rick and Morty">
-
+         alt="Rick and Morty">
   </mat-card>
 
 </div>
