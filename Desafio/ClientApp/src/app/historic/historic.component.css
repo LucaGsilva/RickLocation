@@ -1,0 +1,38 @@
+.container {
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  display:inline-flex;
+}
+
+.btn-group {
+  min-width: 100% !important;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.mat-card-image {
+  margin: 0 1rem;
+  max-width: 80%;
+}
+
+.example-card {
+  margin-right: 1rem;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 5px rgb(209, 209, 209);
+}
+
+.historic-card {
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: auto;
+  height: 100% !important;
+  min-height: 100% !important;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 5px rgb(209, 209, 209);
+}
+

@@ -1,0 +1,24 @@
+<div class="container">
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title class="title"> Rick </mat-card-title>
+      <mat-card-subtitle>{{rick.dimension.name}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://http2.mlstatic.com/D_NQ_NP_958462-MLB29339548199_022019-O.jpg"
+         alt="Rick and Morty">
+    <mat-card-actions class="btn-group">
+      <button mat-button>
+        <a [routerLink]="['/travel']" [queryParams]="{ id: rick.id}">
+          Viajar
+        </a>
+      </button>
+      <button mat-button>
+        <a [routerLink]="['/historic']" [queryParams]="{ id: rick.id}">
+          Histórico
+        </a>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>

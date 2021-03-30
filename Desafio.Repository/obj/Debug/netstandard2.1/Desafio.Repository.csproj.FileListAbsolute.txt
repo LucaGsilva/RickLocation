@@ -1,0 +1,12 @@
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\bin\Debug\netstandard2.1\Desafio.Models.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.csprojAssemblyReference.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\bin\Debug\netstandard2.1\Desafio.Repository.deps.json
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\bin\Debug\netstandard2.1\Desafio.Repository.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\bin\Debug\netstandard2.1\Desafio.Repository.pdb
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\bin\Debug\netstandard2.1\Desafio.Models.pdb
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.csproj.CopyComplete
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Repository\obj\Debug\netstandard2.1\Desafio.Repository.pdb

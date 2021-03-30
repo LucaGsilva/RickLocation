@@ -1,0 +1,25 @@
+
+<div class="container">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title class="title">Rick</mat-card-title>
+      <mat-card-subtitle>{{rick.dimension.name}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://http2.mlstatic.com/D_NQ_NP_958462-MLB29339548199_022019-O.jpg"
+         alt="Rick and Morty">
+    <div class="row">
+      <div>
+
+        <label>Selecione o Destino</label>
+        <select [(ngModel)]="dimensionId">
+          <option *ngFor="let dimension of dimensions;" [value]="dimension.id">
+            {{dimension.name}}
+          </option>
+        </select>
+
+        <button (click)="save()">Viajar</button>
+      </div>
+    </div>
+  </mat-card>
+
+</div>

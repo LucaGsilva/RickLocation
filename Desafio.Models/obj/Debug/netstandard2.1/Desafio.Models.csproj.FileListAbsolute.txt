@@ -1,0 +1,9 @@
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\obj\Debug\netstandard2.1\Desafio.Models.csprojAssemblyReference.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\obj\Debug\netstandard2.1\Desafio.Models.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\obj\Debug\netstandard2.1\Desafio.Models.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\obj\Debug\netstandard2.1\Desafio.Models.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\bin\Debug\netstandard2.1\Desafio.Models.deps.json
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\bin\Debug\netstandard2.1\Desafio.Models.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\bin\Debug\netstandard2.1\Desafio.Models.pdb
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\obj\Debug\netstandard2.1\Desafio.Models.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Models\obj\Debug\netstandard2.1\Desafio.Models.pdb

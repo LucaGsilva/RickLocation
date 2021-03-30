@@ -1,0 +1,12 @@
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.csprojAssemblyReference.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\bin\Debug\netstandard2.1\Desafio.Service.deps.json
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\bin\Debug\netstandard2.1\Desafio.Service.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\bin\Debug\netstandard2.1\Desafio.Service.pdb
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\bin\Debug\netstandard2.1\Desafio.Models.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\bin\Debug\netstandard2.1\Desafio.Models.pdb
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.csproj.CopyComplete
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.dll
+C:\Users\Lukas\Desktop\Desafio\Desafio.Service\obj\Debug\netstandard2.1\Desafio.Service.pdb

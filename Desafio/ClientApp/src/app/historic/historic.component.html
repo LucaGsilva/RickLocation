@@ -1,0 +1,48 @@
+<div class="container">
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title class="title"> Rick </mat-card-title>
+      <mat-card-subtitle>{{rick.dimension.name}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://http2.mlstatic.com/D_NQ_NP_958462-MLB29339548199_022019-O.jpg"
+         alt="Rick and Morty">
+    <mat-card-actions class="btn-group">
+      <button mat-button>
+        <a [routerLink]="['/travel']" [queryParams]="{ id: rick.id}">
+          Viajar
+        </a>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+
+  <mat-card class="historic-card">
+    <mat-card-header>
+      <mat-card-title class="title"> Historico de Viagem </mat-card-title>
+      <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+
+      <table style="width:100%">
+        <tr>
+          <th>Dimensão</th>
+          <th>Data</th>
+        </tr>
+        <tr *ngFor="let travel of travels">
+          <td>
+            {{travel.dimension.name}}
+          </td>
+          <td>
+            {{ travel.datetravel | date:'dd/MM/yyy' }}
+          </td>
+
+        </tr>
+      </table>
+
+
+    </mat-card-content>
+
+  </mat-card>
+
+</div>
