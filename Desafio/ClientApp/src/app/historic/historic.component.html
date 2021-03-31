@@ -16,33 +16,34 @@
     </mat-card-actions>
   </mat-card>
 
+  <div class="scroll">
+    <mat-card class="historic-card">
+      <mat-card-header>
+        <mat-card-title class="title"> Historico de Viagem </mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
 
-  <mat-card class="historic-card">
-    <mat-card-header>
-      <mat-card-title class="title"> Historico de Viagem </mat-card-title>
-      <mat-card-subtitle></mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
+        <table style="width:100%">
+          <tr>
+            <th>Dimensão</th>
+            <th>Data</th>
+          </tr>
+          <tr *ngFor="let travel of travels">
+            <td>
+              {{travel.dimension.name}}
+            </td>
+            <td>
+              {{ travel.datetravel | date:'dd/MM/yyy' }}
+            </td>
 
-      <table style="width:100%">
-        <tr>
-          <th>Dimensão</th>
-          <th>Data</th>
-        </tr>
-        <tr *ngFor="let travel of travels">
-          <td>
-            {{travel.dimension.name}}
-          </td>
-          <td>
-            {{ travel.datetravel | date:'dd/MM/yyy' }}
-          </td>
-
-        </tr>
-      </table>
+          </tr>
+        </table>
 
 
-    </mat-card-content>
+      </mat-card-content>
 
-  </mat-card>
-
+    </mat-card>
+  </div>
 </div>
+

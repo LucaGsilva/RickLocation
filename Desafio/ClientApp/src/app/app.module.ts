@@ -18,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import { HistoricComponent} from '../app/historic/historic.component';
 import { TravelComponent } from '../app/travel/travel.component';
 import { MatTableModule } from '@angular/material/table';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { MatTableModule } from '@angular/material/table';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
+    BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
     MatGridListModule,
