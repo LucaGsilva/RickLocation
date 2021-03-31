@@ -1,5 +1,5 @@
 <div class="container">
-
+  <app-travel  *ngIf="visible" [rick]="rick" (traveled)="onTraveled()"></app-travel>
   <mat-card class="example-card">
     <mat-card-header>
       <mat-card-title class="title"> Rick </mat-card-title>
@@ -8,7 +8,7 @@
     <img mat-card-image src="https://http2.mlstatic.com/D_NQ_NP_958462-MLB29339548199_022019-O.jpg"
          alt="Rick and Morty">
     <mat-card-actions class="btn-group">
-      <button mat-button (click)="openDialog()" >Viajar</button>
+      <button mat-button (click)="viajar()">Viajar</button>
       <button mat-button>
         <a [routerLink]="['/historic']" [queryParams]="{ id: rick.id}">
           Histórico

@@ -1,7 +1,26 @@
+.modal {
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
 .container {
   margin: auto;
   width: 50%;
   align-items: center;
+}
+
+button {
+  text-align: center;
+  width: 80px;
+  margin-right: 1rem;
 }
 
 .row {
@@ -10,10 +29,9 @@
   text-align: center;
 }
 
-select{
-
-    margin: 0 1rem;
-    min-width: 100px !important;
+select {
+  margin: 0 1rem;
+  min-width: 200px !important;
 }
 
 .title {
@@ -27,7 +45,8 @@ select{
 }
 
 .example-card {
+  top: 12rem;
+  background-color: white;
   margin-right: 1rem;
   justify-content: center;
-  box-shadow: 5px 5px 5px 5px rgb(209, 209, 209);
 }

@@ -1,25 +1,30 @@
+<div id="modal" class="modal">
 
-<div class="container">
-  <mat-card class="example-card">
-    <mat-card-header>
-      <mat-card-title class="title">Rick</mat-card-title>
-      <mat-card-subtitle>{{rick.dimension.name}}</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="https://http2.mlstatic.com/D_NQ_NP_958462-MLB29339548199_022019-O.jpg"
-         alt="Rick and Morty">
-    <div class="row">
-      <div>
+  <div class="container">
 
-        <label>Selecione o Destino</label>
-        <select [(ngModel)]="dimensionId">
-          <option *ngFor="let dimension of dimensions;" [value]="dimension.id">
-            {{dimension.name}}
-          </option>
-        </select>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-dialog-actions align="end">
+        </mat-dialog-actions>
+        <mat-card-title class="title">Rick</mat-card-title>
+        <mat-card-subtitle>{{rick.dimension.name}}</mat-card-subtitle>
+      </mat-card-header>
 
-        <button (click)="save()">Viajar</button>
+      <div class="row">
+        <div>
+
+          <label>Selecione o Destino</label>
+          <select [(ngModel)]="dimensionId">
+            <option *ngFor="let dimension of dimensions;" [value]="dimension.id">
+              {{dimension.name}}
+            </option>
+          </select>
+
+          <button (click)="save()">Viajar</button>
+          <button (click)="cancel()">Cancelar</button>
+        </div>
       </div>
-    </div>
-  </mat-card>
+    </mat-card>
 
+  </div>
 </div>

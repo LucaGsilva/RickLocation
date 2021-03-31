@@ -19,6 +19,7 @@ import { HistoricComponent} from '../app/historic/historic.component';
 import { TravelComponent } from '../app/travel/travel.component';
 import { MatTableModule } from '@angular/material/table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCardModule,
     MatTableModule,
     MatPaginatorModule,
+    MatDialogModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'detail', component: rickDetailComponent },

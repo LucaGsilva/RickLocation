@@ -2,7 +2,6 @@ import { Component, Inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import RickLocationService from '../services/RickLocationService';
 import { TravelComponent } from '../travel/travel.component';
-import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 
 @Component({
@@ -14,24 +13,21 @@ import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dial
 export class rickDetailComponent {
   service: RickLocationService;
   rick: any;
+  visible: boolean;
 
 
-  constructor(private route: ActivatedRoute, private dialog: MatDialog,
-    public dialogRef: MatDialogRef<TravelComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: any) {
+  constructor(private route: ActivatedRoute) {
     this.service = new RickLocationService();
+    this.visible = false;
   }
 
-  openDialog(): void {
-    const dialogRef = this.dialog.open(TravelComponent, {
-      width: '250px',
-      data: this.rick
-    });
+  onTraveled() {
+    this.visible = false;
+  }
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      //this.animal = result;
-    });
+  viajar(): void {
+    
+    this.visible = true;
   }
 
 

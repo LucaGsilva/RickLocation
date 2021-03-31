@@ -1,8 +1,10 @@
 .container {
-  margin: auto;
-  width: 100%;
-  align-items: center;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  height: 35rem;
+  /* display: inline-flex; */
 }
 
 .btn-group {
@@ -15,14 +17,19 @@
   font-size: large;
 }
 
+.historic {
+  text-align: center;
+  width: 28rem;
+}
+
 .mat-card-image {
   margin: 0 1rem;
   max-width: 80%;
 }
 
 .example-card {
+  height: 30rem;
   margin-right: 1rem;
-  justify-content: center;
   box-shadow: 5px 5px 5px 5px rgb(209, 209, 209);
 }
 
@@ -37,5 +44,27 @@
 }
 
 .scroll {
-  overflow:visible
+  max-height: 30rem;
+  max-width: 50%;
+  overflow: auto;
+  overflow-x: hidden;
+  box-shadow: 5px 5px 5px 5px rgb(209, 209, 209);
 }
+
+th {
+  background-color: #b2b2b2;
+  width: 50rem;
+}
+
+tr {
+  align-items: center;
+  text-align: center;
+}
+
+  tr:nth-child(odd) {
+    background-color: #cccccc;
+  }
+
+  tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }

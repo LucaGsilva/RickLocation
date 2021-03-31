@@ -1,20 +1,36 @@
-a.{
-    display:inline;
+.mat-select-panel {
+  position: absolute !important;
+  transform-origin: 50% 72px 0px;
+  font-size: 16px;
+  opacity: 1;
+  min-width: calc(100% + 32px);
+  transform: scaleY(1);
 }
-.container{
+
+.a {
+  display: inline;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.container {
   background-color: #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content:flex-start;
+  align-content: flex-start;
 }
 
-.title{
+.title {
   font-weight: bold;
   font-size: large;
 }
 
 .example-card {
+  text-align: center;
   margin-right: 1rem;
   justify-content: space-between;
   max-width: 23%;
@@ -26,11 +42,12 @@ a.{
   background-size: cover;
 }
 
-.row{
-    display: inline-flex;
-    width: 100%;
-    margin: 1rem 1rem;
+.row {
+  display: inline-flex;
+  width: 100%;
+  margin: 1rem 1rem;
 }
-input{
-    margin-right: 1rem;
+
+input {
+  margin-right: 1rem;
 }
