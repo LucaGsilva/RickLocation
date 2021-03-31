@@ -1,8 +1,9 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import RickLocationService from '../services/RickLocationService';
-import { PageEvent, MatPaginatorIntl } from '@angular/material/paginator';
+import { PageEvent } from '@angular/material/paginator';
 import Paginator from '../paginator';
-import { read } from 'fs';
+import { MatPaginatorIntl } from '@angular/material';
+
 
 
 @Component({
@@ -17,42 +18,22 @@ export class HomeComponent {
   paginator: Paginator;
 
 
-  constructor() {
+
+  constructor(private properties: MatPaginatorIntl) {
     this.service = new RickLocationService();
     this.paginator = new Paginator();
-    this.paginator.pageSize = 8;
+    this.paginator.pageSize = 10;
+    properties.itemsPerPageLabel = "Itens por página";
   }
 
-  
+
 
   update() {
     this.paginator.update();
-
-    //if (this.event != null) {
-    //  this.page = this.event.pageIndex;
-    //  var start = (this.pageSize * this.event.pageIndex);
-    //  var end = start + this.pageSize;
-
-    //  this.previous = [];
-
-    //  if (start == 0) {
-    //    for (var i = 0; i < this.pageSize; i++) {
-    //      this.previous.push(this.ricks[i]);
-    //    }
-    //  } else {
-    //    for (var i = start; i < end; i++) {
-    //      if (i <= (this.ricks.length - 1)) {
-    //        this.previous.push(this.ricks[i]);
-    //      }
-    //    }
-    //  }
-    //}
-
   }
 
   pageChangeEvent(event: PageEvent) {
     this.paginator.paginate(event);
-    //this.update();
   }
 
 
@@ -71,6 +52,7 @@ export class HomeComponent {
   }
 
   ngOnInit(): void {
+    console.log(this.properties)
     this.service.getRicks().then(
       (res) => {
         if (res.data.code == 200) {

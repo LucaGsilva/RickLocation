@@ -2,6 +2,31 @@
 
 /* Provide sufficient contrast against white background */
 
+.mat-select-panel {
+  font-size: 16px;
+  opacity: 1;
+  min-width: calc(100% + 32px);
+  transform: scaleY(1);
+}
+
+.cdk-overlay-pane {
+  border-width: 0.3px;
+  border-style: solid;
+  min-width: 56px;
+  pointer-events: auto;
+  font-size: 16px;
+  transform: translateX(0) translateY(0) !important;
+}
+
+.mat-option-text {
+}
+
+.cdk-overlay-container {
+  background-color: #fff;
+  position: absolute !important;
+  left: 60rem !important;
+  top: 8rem;
+}
 
 
 a {

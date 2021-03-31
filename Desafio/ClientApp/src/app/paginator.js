@@ -19,7 +19,6 @@ var Paginator = /** @class */ (function () {
         var start = (this.pageSize * this.index);
         var end = start + this.pageSize;
         this.page = [];
-        console.log(start);
         for (var i = start; i < end && i < this.source.length; i++) {
             this.page.push(this.source[i]);
         }

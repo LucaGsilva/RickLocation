@@ -15,6 +15,7 @@ export default class Paginator {
     this.length = this.source.length;
     this.index = 0;
     this.pageSize = 5;
+   
   }
 
   paginate(event: PageEvent) {
@@ -29,8 +30,6 @@ export default class Paginator {
     var start = (this.pageSize * this.index);
     var end = start + this.pageSize;
     this.page = [];
-
-    console.log(start);
 
     for (var i = start; i < end && i < this.source.length; i++) {
 
